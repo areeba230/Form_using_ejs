@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>WELCOME TO DOCUMENT PAGE</h1>
+        <%-include("navbar")%>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <%=obj.username%>
+            </li>
+            <li>
+                <%=obj.password%>
+            </li>
+            <li>
+                <%=obj.phone%>
+            </li>
+            <li>
+                <%=obj.gender%>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
